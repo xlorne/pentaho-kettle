@@ -26,7 +26,7 @@ this pom name is org.eclipse.core-commands, but the jar file name is org.eclipse
  </dependency>
 ```
 
-this repository is not found, so you need to download the jar file from the following URL and install it in the local repository.
+this repository is not found, so you need to download release 2.1.1 from the following URL and install it(`mvn clean install -DskipTests=true`) in the local repository.
 
 * syslog4j 0.9.46 (https://mvnrepository.com/artifact/org.syslog4j/syslog4j/0.9.46)
 ```
@@ -36,8 +36,7 @@ this repository is not found, so you need to download the jar file from the foll
     <version>0.9.46</version>
  </dependency>
 ```
-you can download the jar file from the following URL and install it in the local repository.
-
+you can download the jar file from the following URL and copy it to the local repository.
 
 ## Building it
 
